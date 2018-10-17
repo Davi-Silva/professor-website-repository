@@ -1,0 +1,234 @@
+
+@font-face {
+    font-family: "Misirlout";
+    src:url("../fonts/misirlou.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+.nav-top h1 {
+    font-family: "Lato";
+    font-weight: 900;
+    margin-top: 20px;
+    color: #666666;
+}
+
+
+
+.nav-top ul {
+    margin-top: 16px;
+    float: right;
+}
+
+.nav-top ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 36px;
+}
+
+.nav-top .menu ul {
+    float: right;
+    margin-top: 16px;
+}
+
+.nav-top .menu ul li a {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #666666;
+}
+
+
+/*TITULO*/
+
+
+.title {
+    background-image: url("../img/eng-dir-prog-bg-low-gray.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 540px;
+}
+
+.title h1,
+.title h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.title h1 {
+    margin-top: 180px;
+    font-size: 80px;
+    font-family: "Lato";
+}
+
+.title h2 {
+    font-weight: 100;
+    letter-spacing: 4px;
+    font-family: "Open Sans";
+}
+
+
+/* SECTION "SOBRE" */
+
+.sobre {
+    height: 500px;
+    background-color: #e3e3e3;
+}
+
+.sobre header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #666666;
+    font-family: "Lato";
+    font-size: 65px;
+    padding-top: 40px;
+}
+
+.sobre p {
+    text-align: center;
+    font-size: 25px;
+
+}
+
+
+ /* SECTION "CONTATOS" */
+
+.contatos {
+    margin-top: 80px;
+}
+
+.contatos article {
+    border-radius: 8px;
+    box-shadow: 0px 0px 7px #888888;
+    padding-bottom: 10px;
+}
+
+.contatos article img {
+    border-radius: 7px 7px 0px 0px;
+}
+
+.contatos article h2 {
+    font-size: 30px;
+}
+
+.contatos article h2,
+.contatos article i,
+.contatos article p {
+    text-align: center;
+    color: #666666;
+}
+
+.contatos .contatos-numero {
+    text-align: center;
+}
+
+.contatos .contatos-numero button {
+    background-color: transparent;
+    border-color: transparent;
+    border: none;
+    box-shadow: none;
+    border-radius: 100%;
+}
+
+.contatos .contatos-numero button i {
+    font-size: 65px;
+}
+
+.contatos .contatos-numero ul li {
+    list-style: none;
+    font-size: 30px;
+    font-family: "Open Sans";
+    color: #888888;
+}
+
+.contatos .contatos-numero a i {
+    margin-top: 20px;
+    font-size: 65px;
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+
+/*MATERIAS TOGGLE*/
+
+.materias {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+
+
+}
+
+.materias article {
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px #888888;
+
+}
+
+
+
+.materias article button {
+    border-radius: 100%;
+    background-color: #888888;
+    height: 100px;
+    width: 100px;
+    border: none;
+}
+
+.materias article button:enabled {
+    background-color: #888888;
+    border: none;
+}
+
+.materias article button i {
+    font-size: 60px;
+    text-align: center;
+}
+
+.materias article .conteudo {
+    margin-top: 20px;
+}
+
+.materias article .conteudo ul li {
+    list-style: none;
+    font-size: 20px;
+    font-family: "Open Sans";
+    border-radius: 15px;
+    margin: 10px;
+    padding: 4px;
+    background-color: #bbbbbb;
+    color: #fff;
+    border-top: 1px solid #999999;
+}
+
+
+
+
+/*FOOTER*/
+
+footer {
+    margin-top: 10px;
+}
+
+footer h1 {
+    text-align: center;
+    color: #666666;
+}
+
+footer i {
+    color: #BC0213;
+}
